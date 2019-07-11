@@ -1,13 +1,16 @@
 #!/bin/bash
 # Created by Jacob Strieb
 
+
 # Global variables
 RES_DIR=resources
 SITE_DIR=jstrieb.github.io
 SRC_DIR=md
 
+
 # Exit immediately if anything fails
 set -e
+
 
 # If pandoc isn't installed, abort
 if [ ! $(which pandoc) ]; then
@@ -16,6 +19,7 @@ if [ ! $(which pandoc) ]; then
 Linux computer (e.g., Ubuntu), do:   sudo apt install pandoc"
   exit
 fi
+
 
 # Find all markdown (md) files to convert
 MD_FILES=$(find $SRC_DIR -name "*.md")
@@ -67,3 +71,14 @@ for RES in $MISC_RES; do
     cp $RES $DEST
   fi
 done
+
+
+# Delete garbage Vim swap files that may have been accidentally copied over
+if [ $(find $SITE_DIR -name ".*.swp") ]; then
+  echo "Deleting garbage *.swp files"
+  rm $(find $SITE_DIR -name ".*.swp")
+fi
+if [ $(find $SITE_DIR -name ".*.swo") ]; then
+  echo "Deleting garbage *.swo files"
+  rm $(find $SITE_DIR -name ".*.swo")
+fi
