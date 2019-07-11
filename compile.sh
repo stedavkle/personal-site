@@ -16,3 +16,31 @@ if [ ! $(which pandoc) ]; then
 Linux computer (e.g., Ubuntu), do:   sudo apt install pandoc"
   exit
 fi
+
+# Find all markdown (md) files to convert
+MD_FILES=$(find $SRC_DIR -name "*.md")
+
+# Loop over each md file, converting if necessary
+for MD in $MD_FILES; do
+  # Get the name of the file and directory to create
+  HTML=$(echo $MD | sed "s:$SRC_DIR/:$SITE_DIR/:" | sed "s/\.md$/\.html/")
+  DIR=$(echo $HTML | sed "s:/[^/]*\.html$:/:")
+
+  # Make the directory if it doesn't already exist
+  if [ ! -d "$DIR" ]; then
+    echo Creating directory "$DIR"
+    mkdir -p $DIR
+  fi
+
+  # Convert the file if the HTML doesn't exist or is older than the markdown
+  if [ ! -f $HTML ] || [ $MD -nt $HTML ] || [ $RES_DIR -nt $HTML ]; then
+    echo "Converting file $MD -> $HTML"
+    pandoc --standalone \
+      --css=/style.css \
+      --include-before-body=$RES_DIR/navbar.html \
+      --include-after-body=$RES_DIR/footer.html \
+      --template=$RES_DIR/template.html \
+      --highlight-style=kate \
+      $MD -o $HTML
+  fi
+done
