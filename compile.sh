@@ -4,7 +4,7 @@
 
 # Global variables
 RES_DIR=resources
-SITE_DIR=jstrieb.github.io
+SITE_DIR=../jstrieb.github.io
 SRC_DIR=md
 
 
