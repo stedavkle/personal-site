@@ -44,3 +44,26 @@ for MD in $MD_FILES; do
       $MD -o $HTML
   fi
 done
+
+
+# Copy miscellaneous non-markdown files that and don't need conversion
+MISC_RES=$(find $SRC_DIR -name "*" | grep -v '\.md$')
+for RES in $MISC_RES; do
+  if [ -d $RES ]; then continue; fi
+
+  # Get the name of the destination and its directory
+  DEST=$(echo $RES | sed "s:$SRC_DIR/:$SITE_DIR/:")
+  DIR=$(echo $DEST | sed "s:/[^/]*$:/:")
+
+  # Make the directory if it doesn't already exist
+  if [ ! -d "$DIR" ]; then
+    echo Creating directory "$DIR"
+    mkdir -p $DIR
+  fi
+
+  # Move the resource if it doesn't exist or is newer than the destination
+  if [ ! -f $DEST ] || [ $RES -nt $DEST ]; then
+    echo "Copying resource $RES -> $DEST"
+    cp $RES $DEST
+  fi
+done
