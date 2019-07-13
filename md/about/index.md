@@ -1,3 +1,10 @@
+---
+title: About - Jacob Strieb
+author: Jacob Strieb
+date: July 13, 2019
+description: Background on Jacob Strieb
+...
+
 # About
 
 ## Summary

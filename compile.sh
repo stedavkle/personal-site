@@ -74,11 +74,11 @@ done
 
 
 # Delete garbage Vim swap files that may have been accidentally copied over
-if [ $(find $SITE_DIR -name ".*.swp") ]; then
+if [ "$(find $SITE_DIR -name '.*.swp')" ]; then
   echo "Deleting garbage *.swp files"
-  rm $(find $SITE_DIR -name ".*.swp")
+  rm $(find $SITE_DIR -name '.*.swp')
 fi
-if [ $(find $SITE_DIR -name ".*.swo") ]; then
+if [ "$(find $SITE_DIR -name '.*.swo')" ]; then
   echo "Deleting garbage *.swo files"
-  rm $(find $SITE_DIR -name ".*.swo")
+  rm $(find $SITE_DIR -name '.*.swo')
 fi

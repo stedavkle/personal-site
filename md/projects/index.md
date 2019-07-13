@@ -13,6 +13,10 @@ description: List of publicly released projects created by Jacob Strieb
 - ### [URL Pages](/projects/urlpages/)
   Create and view web pages stored entirely in their URL.
 
+- ### [Personal Site](/projects/personal-site)
+  Personal website designed by hand in `HTML`, `CSS`, and `Javascript`, and
+  compiled from `markdown` using a custom `bash` script.
+
 - ### [GroupMe Archiver](https://github.com/jstrieb/groupme-archiver)
   GUI to download media and messages from GroupMe Chats. Written in `Java`
   using `JavaFX`.
@@ -20,10 +24,6 @@ description: List of publicly released projects created by Jacob Strieb
 - ### [QuickServ](https://github.com/jstrieb/quickserv)
   Minimal-setup, dependency-free Linux web server for hackathons. Written in
   `C`.
-
-- ### [jstrieb.github.io](https://github.com/jstrieb/jstrieb.github.io)
-  Personal website designed by hand in `HTML`, `CSS`, and `Javascript`, and
-  compiled from `markdown` using a custom `bash` script.
 
 - ### [CMU QPA](/cmuqpa)
   Static web application to help Carnegie Mellon students calculate and predict
