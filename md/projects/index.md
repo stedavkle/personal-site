@@ -10,7 +10,7 @@ description: List of publicly released projects created by Jacob Strieb
 
 <div class="projects">
 
-- ### [URL Pages](/projects/urlpages/)
+- ### [URL Pages](https://github.com/jstrieb/urlpages)
   Create and view web pages stored entirely in their URL.
 
 - ### [Personal Site](/projects/personal-site)
