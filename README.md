@@ -27,14 +27,14 @@
    preamble of `markdown` pages that are converted to `HTML`. For example, the
    preamble of the file for this page is as follows.
 
-    ```
+```
 ---
 title: Personal Website - Jacob Strieb Projects
 author: Jacob Strieb
 date: July 13, 2019
 description: Personal website designed by hand in `HTML`, `CSS`, and `Javascript`, and compiled from `markdown` using a custom `bash` script.
 ...
-    ```
+```
 
 4. Write some `markdown` pages using any directory structure you see fit in the
    `md` folder. Make sure they include a preamble with all of the necessary
@@ -52,9 +52,9 @@ description: Personal website designed by hand in `HTML`, `CSS`, and `Javascript
    test the site out. I typically run the following command and go to
    http://localhost:8080 in my browser.
 
-    ``` { .bash }
+```
 python3 -m http.server 8080
-    ```
+```
 
 8. **[Optional]** Host your site using GitHub Pages
 
@@ -83,7 +83,7 @@ updated than the destination output file, or when anything in the `resources`
 folder has been more recently updated than the destination output.
 
 The `pandoc` command is run to convert from `markdown` to "standalone"
-`HTML`[^1].  This means that `pandoc` generates a full page with a `<head>` and
+`HTML` [1].  This means that `pandoc` generates a full page with a `<head>` and
 `<body>` rather than just converting to literal `HTML` tags. It also runs with
 options to include a custom stylesheet, to highlight code with a specific
 style, and to include a menu bar and footer in every page (based on files
@@ -96,10 +96,10 @@ could be associated with a post. It is also useful for copying pre-written
 `HTML` that the script does not generate. For example, on this site, I wrote
 the home page by hand in `HTML`, and copy it directly rather than converting
 it from `markdown`. Finally, the script removes resource files that it may have
-copied over, but which are junk[^2].
+copied over, but which are junk [2].
 
 
-[^1]: See the Pandoc docs section on
+[1]: See the Pandoc docs section on
 [templates](https://pandoc.org/MANUAL.html#templates)
 
-[^2]: For example temporary `swp` files created by Vim
+[2]: For example temporary `swp` files created by Vim
