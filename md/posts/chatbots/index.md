@@ -1,3 +1,10 @@
+---
+title: "Chatbots: 15-112 Optional Lectue - Jacob Strieb"
+author: Jacob Strieb and Zuhayer Quazi
+date: November 6, 2018
+description: Supporting materials for an optional lecture given as part of 15-112 at Carnegie Mellon University during Fall 2018
+...
+
 # Chatbots
 15-112 Optional Lecture
 -----------------------
@@ -51,7 +58,7 @@ Here is an example of a JSON object:
   ],
   "children": [],
   "spouse": null
-} 
+}
 ```
 
 Parsing text formatted as JSON objects is very easy in Python. Using the `json` library, and calling the `json.loads` method on a properly-formatted string will return a regular Python dictionary.
@@ -230,7 +237,7 @@ data = {
 r = requests.post("https://api.groupme.com/v3/bots/post", data=data)
 ```
 
-Notice that this time, when we send the message, we make a `POST` request as opposed to a `GET` request. Also note that we use the optional parameter `data` instead of `params`. 
+Notice that this time, when we send the message, we make a `POST` request as opposed to a `GET` request. Also note that we use the optional parameter `data` instead of `params`.
 
 More information on creating bots can be found at the official [GroupMe Bots documentation here](https://dev.groupme.com/tutorials/bots).
 
@@ -250,10 +257,10 @@ import json
 
 #*******************************************************************************
 ################################################################################
-# 
+#
 # Created by Jacob Strieb for the Chatbots optional lecture given as part of
 # the 15-112 Fall 2018 semester at Carnegie Mellon University
-# 
+#
 ################################################################################
 #*******************************************************************************
 
@@ -417,12 +424,12 @@ ACCESS_TOKEN = 'fdskafndsfjslafdsakjfdsaklfsaldf' #my token! :)
 VERIFY_TOKEN = 'esketit' #some random verify token
 bot = Bot(ACCESS_TOKEN)
 
-#We will receive messages that Facebook sends our bot at this endpoint 
+#We will receive messages that Facebook sends our bot at this endpoint
 @app.route("/", methods=['GET', 'POST'])
 def receive_message():
     if request.method == 'GET':
         """Before allowing people to message your bot, Facebook has implemented a verify token
-        that confirms all requests that your bot receives came from Facebook.""" 
+        that confirms all requests that your bot receives came from Facebook."""
         token_sent = request.args.get("hub.verify_token")
         return verify_fb_token(token_sent)
     #if the request was not get, it must be POST and we can just proceed with sending a message back to user
@@ -447,7 +454,7 @@ def receive_message():
 
 def verify_fb_token(token_sent):
     #take token sent by facebook and verify it matches the verify token you sent
-    #if they match, allow the request, else return an error 
+    #if they match, allow the request, else return an error
     if token_sent == VERIFY_TOKEN:
         return request.args.get("hub.challenge")
     return 'Invalid verification token'
