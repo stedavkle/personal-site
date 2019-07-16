@@ -44,7 +44,6 @@ for MD in $MD_FILES; do
       --include-before-body=$RES_DIR/navbar.html \
       --include-after-body=$RES_DIR/footer.html \
       --template=$RES_DIR/template.html \
-      --highlight-style=kate \
       $MD -o $HTML
   fi
 done

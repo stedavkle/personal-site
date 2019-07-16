@@ -30,7 +30,7 @@ Published on November 6, 2018
 "JSON" is an acronym used to describe JavaScript Object Notation. This is essentially a format for transmitting data in the form of "objects" (think object-oriented programming). The notation is very similar to Python's syntax for dictionaries. Generally, JSON objects can be thought of as a text form of dictionaries.
 
 Here is an example of a JSON object:
-```json
+```javascript
 {
   "firstName": "John",
   "lastName": "Smith",
@@ -108,7 +108,7 @@ print(newJsonString)
 ```
 
 Running this code prints the following:
-```json
+```javascript
 {
   "firstName": "John",
   "lastName": "Smith",
@@ -400,12 +400,14 @@ More information about GroupMe APIs can be found here:
 - [Download the Code Above](GroupMe.py)
 
 # Facebook Messenger Bot API
-###Dependencies
+
+### Dependencies
+
 - Flask `pip install flask`
 - pymessenger `pip install pymessenger`
 - ngrok (hosting service)
 
-###Flask Application
+### Flask Application
 Flask is a service (written in python) that runs an application (in this case, the application is our Lil Pump Facebook Page Messenger). In our Flask application we will be handling *all* of the following:
 
 - Receiving messages
@@ -477,14 +479,16 @@ if __name__ == "__main__":
     app.run()
 ```
 
-###How to Set Up Your Bot
+### How to Set Up Your Bot
+
 - Create Facebook Page (literally anything!)
 - Link your facebook account to FB Developers
 - Create Messenger App
 - Get API token from the dashboard (link your fb page)
 - Integrate Webhook using **ngrok** link.
 
-###How to Host it
+### How to Host it
+
 - `python app.py` will run your Flask App and return something like this:  `* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)`
 - `ngrok http 5000` will give you a link like `https://813123d.ngrok.io`
 - Paste that into the Webhook above, subscribe your page.
