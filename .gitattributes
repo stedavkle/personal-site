@@ -1,0 +1,4 @@
+# Created by Jacob Strieb
+
+# Ignore Python files in the language detection
+*.py linguist-detectable=false
