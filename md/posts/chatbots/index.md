@@ -220,7 +220,7 @@ print(url)
 
 Note that the above code uses the JSON parser built natively into the `requests` library. When run the first time, this code linked to the following fun cat GIF:
 
-![](http://i.imgur.com/0Y1xISa.gif "Lit Cat GIF")
+![](cat.gif "Lit Cat GIF")
 
 # GroupMe Bot API
 Now that we know how to use APIs in general, we can begin to build a chatbot for the GroupMe messaging platform that will send messages in a group chat when we run the code. Doing this is largely the same as the procedure we went through in order to get GIFs from the GIPHY API.
