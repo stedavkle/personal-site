@@ -7,6 +7,12 @@ description: Background on Jacob Strieb
 
 # About
 
+I can be reached at
+
+```
+[ my github.io subdomain ]  @  andrew.cmu.edu
+```
+
 ## Summary
 
 I am currently an undergraduate studying math, computer science, and public
