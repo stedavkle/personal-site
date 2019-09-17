@@ -60,8 +60,7 @@ shell commands in the `Makefile`, I finally resolved to write a shell script
 for copying and converting the files using `pandoc`.
 
 Since writing the first version of the script, I have been using it to great
-success both on Linux, and [Windows Subsystem for
-Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+success both on Linux, and Windows Subsystem for Linux[^2].
 
 
 ## How It Works
@@ -88,7 +87,7 @@ updated than the destination output file, or when anything in the `resources`
 folder has been more recently updated than the destination output.
 
 The `pandoc` command is run to convert from `markdown` to "standalone"
-`HTML`[^2].  This means that `pandoc` generates a full page with a `<head>` and
+`HTML`[^3].  This means that `pandoc` generates a full page with a `<head>` and
 `<body>` rather than just converting to literal `HTML` tags. It also runs with
 options to include a custom stylesheet, to highlight code with a specific
 style, and to include a menu bar and footer in every page (based on files
@@ -101,7 +100,7 @@ could be associated with a post. It is also useful for copying pre-written
 `HTML` that the script does not generate. For example, on this site, I wrote
 the home page by hand in `HTML`, and copy it directly rather than converting
 it from `markdown`. Finally, the script removes resource files that it may have
-copied over, but which are junk[^3].
+copied over, but which are junk[^4].
 
 
 ## How to Use
@@ -163,7 +162,10 @@ python3 -m http.server 8080
   decade, and it looks exactly as I remember it. I have not been able to find
   archived versions of the others.
 
-[^2]: See the Pandoc docs section on
-[templates](https://pandoc.org/MANUAL.html#templates)
+[^2]: There are sometimes slight differences between versions compiled using
+  WSL due to it having a different version of `pandoc` installed
 
-[^3]: For example temporary `swp` files created by Vim
+[^3]: See the Pandoc docs section on
+  [templates](https://pandoc.org/MANUAL.html#templates)
+
+[^4]: For example temporary `swp` files created by Vim

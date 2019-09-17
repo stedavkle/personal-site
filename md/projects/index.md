@@ -21,6 +21,11 @@ description: List of publicly released projects created by Jacob Strieb
   GUI to download media and messages from GroupMe Chats. Written in `Java`
   using `JavaFX`.
 
+- ### [GroupMe LaTeX Bot](https://github.com/jstrieb/groupme-latex)
+  Renders LaTeX equations and sends them to the group chat as
+  images. Also works with text and `tikz` plots. Written in `Python3` and run
+  usnig `cgi-bin`.
+
 - ### [QuickServ](https://github.com/jstrieb/quickserv)
   Minimal-setup, dependency-free Linux web server for hackathons. Written in
   `C`.
