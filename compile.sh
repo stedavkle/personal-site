@@ -3,6 +3,7 @@
 
 
 # Global variables
+# TODO: Implement as arguments
 RES_DIR=resources
 SITE_DIR=../jstrieb.github.io
 SRC_DIR=md

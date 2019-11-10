@@ -17,14 +17,14 @@ description: List of publicly released projects created by Jacob Strieb
   Personal website designed by hand in `HTML`, `CSS`, and `Javascript`, and
   compiled from `markdown` using a custom `bash` script.
 
-- ### [GroupMe Archiver](https://github.com/jstrieb/groupme-archiver)
-  GUI to download media and messages from GroupMe Chats. Written in `Java`
-  using `JavaFX`.
-
 - ### [GroupMe LaTeX Bot](https://github.com/jstrieb/groupme-latex)
   Renders LaTeX equations and sends them to the group chat as
   images. Also works with text and `tikz` plots. Written in `Python3` and run
-  usnig `cgi-bin`.
+  using `cgi-bin`.
+
+- ### [GroupMe Archiver](https://github.com/jstrieb/groupme-archiver)
+  GUI to download media and messages from GroupMe Chats. Written in `Java`
+  using `JavaFX`.
 
 - ### [QuickServ](https://github.com/jstrieb/quickserv)
   Minimal-setup, dependency-free Linux web server for hackathons. Written in
