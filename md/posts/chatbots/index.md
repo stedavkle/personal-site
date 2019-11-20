@@ -26,6 +26,10 @@ Published on [November 6, 2018](https://jstrieb.github.io/posts/chatbots/)
 
 ---
 
+What follows is supporting reference material for an optional lecture given to
+students taking 15-112 at Carnegie Mellon University during the Fall 2018
+semester.
+
 # JSON
 "JSON" is an acronym used to describe JavaScript Object Notation. This is essentially a format for transmitting data in the form of "objects" (think object-oriented programming). The notation is very similar to Python's syntax for dictionaries. Generally, JSON objects can be thought of as a text form of dictionaries.
 

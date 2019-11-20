@@ -1,7 +1,7 @@
 ---
 title: "My Favorite Programming Problem to Teach: Digit Length - Jacob Strieb"
 author: Jacob Strieb
-date: August 15, 2019
+date: November 10, 2019
 description: A function to return the number of digits in an input (natural) number provides many learning opportunities for a new programmer
 ...
 
@@ -11,6 +11,9 @@ description: A function to return the number of digits in an input (natural) num
 By [Jacob Strieb](https://jstrieb.github.io)
 
 Published on [November 10, 2019](/posts/digit-length/)
+
+Read the discussion at
+[Hacker News](https://news.ycombinator.com/item?id=21500434)
 
 ---
 
@@ -33,7 +36,9 @@ opportunities to explore deep ideas. The problem is stated as follows.
 
 ### Problem
 
-> Write a function `digitLength(n)` that takes a natural number as input (_i.e._, $0, 1, 2, \ldots$) and returns as output the number of digits the input has.
+> Write a function `digitLength(n)` that takes a natural number as input
+> (_i.e._, $0, 1, 2, \ldots$ -- a nonnegative integer) and returns as output
+> the number of digits the input has.
 >
 > For example: `digitLength(69420) == 5` and `digitLength(1337) == 4`
 
@@ -171,14 +176,14 @@ function works correctly in all cases. I hope to illustrate by example that
 unit testing saves time in the long-run, but is not a panacea for guaranteeing
 code correctness.
 
-Reviewing the deceptive, almost-correct solutions teach that it is insufficient
-for a program to _seem_ to work; truly correct code requires stronger
-guarantees. This mindset prepares students to learn about contracts and formal
-methods, topics taught in 15-122 and 15-150 (the following courses in the
-Carnegie Mellon introductory computer science series).
+Reviewing the deceptive, almost-correct solutions teaches that it is
+insufficient for a program to _seem_ to work; truly correct code requires
+stronger guarantees. This mindset prepares students to learn about contracts
+and formal methods, topics taught in 15-122 and 15-150 (the following courses
+in the Carnegie Mellon introductory computer science series).
 
 Furthermore, the examples teach that when developing test cases, it is
-beneificial to include suspected edge case inputs like `0`.
+beneficial to include suspected edge case inputs like `0`.
 
 ## Specification Clarity
 Initial solutions that fail on input `n = 0` are ideal for highlighting the
@@ -192,7 +197,7 @@ of natural numbers from the problem statement is critical for a correct
 solution.
 
 Keeping the set of inputs in-mind is an important habit for ensuring that code
-takes into account edge cases and is provably correct. Discussing specification
+takes edge cases into account and is provably correct. Discussing specification
 clarity doubles as an opportunity to encourage students to formalize
 specifications for all functions they create. Ideally, including specifications
 as comments makes code more readable, but it also forces students to consider
@@ -246,4 +251,4 @@ def digitLengthCheating(n):
   the number 0 has an undefined digit length, rather than having 1 digit
 
 [^3]: In other words, define the natural numbers as the domain of the $\log$
-  function.
+  function, rather than vice-versa

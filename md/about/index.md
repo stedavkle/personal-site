@@ -18,7 +18,8 @@ My resume is available upon request.
 
 I can be reached at [jstrieb@andrew.cmu.edu](mailto:jstrieb@andrew.cmu.edu), or
 use the form below to directly send me a chat message. Don't forget to include
-your contact information below if you would like a response!
+your contact information below if you would like a response! If you see a blank
+screen after clicking "Send," then the message was sent successfully.
 
 <div class="contact-form">
 <form action="https://api.groupme.com/v3/bots/post?bot_id=706deaf523f339bcee544e833b" method="post">
