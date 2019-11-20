@@ -27,4 +27,4 @@ screen after clicking "Send," then the message was sent successfully.
 <input id="bot_id" name="bot_id" type="hidden" value=" 	706deaf523f339bcee544e833b">
 <button>Send</button>
 </form>
-</div>
+</div><br />
