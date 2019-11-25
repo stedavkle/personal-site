@@ -1,18 +1,24 @@
 ---
 title: Posts by Jacob Strieb
 author: Jacob Strieb
-date: July 14, 2019
+date: November 25, 2019
 description: Index of posts by Jacob Strieb on jstrieb.github.io
 ...
 
 # Posts
 
-<!-- Add date to each post; needs CSS to make inline -->
+<!-- TODO Add date to each post; needs CSS to make inline -->
 
 - ### [My Favorite Programming Problem to Teach](/posts/digit-length/)
 
     How finding digit length teaches a variety of introductory programming
     concepts.
+
+- ### [Static Site Generator from Scratch for My Personal
+  Website](/projects/personal-site/)
+
+    The history behind my personal website and the `bash` static site generator
+    I built to compile it from `markdown`.
 
 
 - ### [Chatbots Tutorial](/posts/chatbots/)
