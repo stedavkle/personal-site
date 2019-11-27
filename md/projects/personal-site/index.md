@@ -65,6 +65,36 @@ shell script and the `markdown` source files can be found
 [here](http://github.com/jstrieb/personal-site).
 
 
+## How It Works
+
+The script uses the `find` program to index the source directory and locate all
+`markdown` files to be converted. It then loops over all of the files,
+converting them in-turn using `pandoc`. Before converting a given file, it uses
+`sed` to extract the base directory of the file to be converted.  This
+directory name is used to create the parent folder if it does not yet exist.
+
+The script also ensures that `pandoc` conversion only happens when the
+resulting `HTML` output actually needs to be updated. This occurs when the
+destination output doesn't exist, the source file has been more recently
+updated than the destination output file, or when anything in the `resources`
+folder has been more recently updated than the destination output.
+
+The `pandoc` command is run to convert from `markdown` to "standalone"
+`HTML`.[^3]  This means that `pandoc` generates a full page with a `<head>` and
+`<body>` rather than just converting to literal `HTML` tags. It also runs with
+options to include a custom stylesheet, to highlight code with a specific
+style, and to include a menu bar and footer in every page (based on files
+provided in the `resources` folder). The output page is formatted according to
+a template, also provided in the `resources` folder.
+
+Finally, the script copies over all files that it doesn't convert, preserving
+directory structure. This is useful for copying images or other media that
+could be associated with a post. It is also useful for copying pre-written
+`HTML` that the script does not generate. For example, on this site, I wrote
+the home page by hand in `HTML`, and copy it directly rather than converting
+it from `markdown`.
+
+
 [^1]: The last surviving barbiesstink site can be found
   [here](https://barbiesstink.webnode.com). It's still up after more than a
   decade, and it looks exactly as I remember it, embarrassing edited pictures
@@ -73,3 +103,6 @@ shell script and the `markdown` source files can be found
 
 [^2]: There are sometimes slight differences between versions compiled using
   WSL due to it having a different version of `pandoc` installed
+
+[^3]: See the Pandoc docs section on
+  [templates](https://pandoc.org/MANUAL.html#templates)
