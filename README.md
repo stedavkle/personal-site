@@ -3,6 +3,8 @@
 - Home page: [jstrieb.github.io](https://jstrieb.github.io)
 - Code:
   [github.com/jstrieb/personal-site](http://github.com/jstrieb/personal-site)
+- About:
+  [jstrieb.github.io/projects/personal-site](http://jstrieb.github.io/projects/personal-site/)
 
 
 ## How to Use
@@ -22,7 +24,7 @@
      example content in the middle. I also do this step in the
      [URL Pages Editor](https://jstrieb.github.io/urlpages).
 
-3. Make any changes to `resources/template.html` that you see fit. Most of the
+3. Make any changes to `resources/template.html` that you see fit. Many of the
    variables included in that file like `$variable-name$` are defined in the
    preamble of `markdown` pages that are converted to `HTML`. For example, the
    preamble of the file for this page is as follows.
@@ -61,20 +63,20 @@ python3 -m http.server 8080
 
 ## How It Works
 
-At the top of the script, there are some global variables that contain
-information about which directories are scanned for source files, and where the
-resulting output goes.
+At the top of the script, there are global variables with information about
+which directories are scanned for source files, and where the resulting output
+goes.
 
 The script is set to exit if any step fails, since many subsequent steps rely
 on their predecessors, and all steps are important. Additionally, the script
-makes sure that `pandoc` is installed since it is necessary for the `markdown`
-to `HTML` conversion.
+checks that `pandoc` is installed since it is necessary for the `markdown` to
+`HTML` conversion.
 
 Next, the script uses the `find` program to index the source directory and
 locate all `markdown` files to be converted. It then loops over all of the
 files, converting them in-turn using `pandoc`. Before converting a given file,
-it uses `sed` to parse the base directory of the file to be converted. It uses
-this directory name to create the folder if it does not yet exist.
+it uses `sed` to extract the base directory of the file to be converted.  This
+directory name is used to create the parent folder if it does not yet exist.
 
 The script also ensures that `pandoc` conversion only happens when the
 resulting `HTML` output actually needs to be updated. This occurs when the
@@ -83,7 +85,7 @@ updated than the destination output file, or when anything in the `resources`
 folder has been more recently updated than the destination output.
 
 The `pandoc` command is run to convert from `markdown` to "standalone"
-`HTML` [1].  This means that `pandoc` generates a full page with a `<head>` and
+`HTML`.[1]  This means that `pandoc` generates a full page with a `<head>` and
 `<body>` rather than just converting to literal `HTML` tags. It also runs with
 options to include a custom stylesheet, to highlight code with a specific
 style, and to include a menu bar and footer in every page (based on files
@@ -95,11 +97,8 @@ directory structure. This is useful for copying images or other media that
 could be associated with a post. It is also useful for copying pre-written
 `HTML` that the script does not generate. For example, on this site, I wrote
 the home page by hand in `HTML`, and copy it directly rather than converting
-it from `markdown`. Finally, the script removes resource files that it may have
-copied over, but which are junk [2].
+it from `markdown`.
 
 
 [1]: See the Pandoc docs section on
 [templates](https://pandoc.org/MANUAL.html#templates)
-
-[2]: For example temporary `swp` files created by Vim

@@ -11,10 +11,10 @@ description: List of publicly released projects created by Jacob Strieb
 <div class="projects">
 
 - ### [URL Pages](https://github.com/jstrieb/urlpages)
-  Create and view web pages stored entirely in their URL. Written by hand in
-  `HTML`, `CSS`, and `JavaScript`.
+  Create and view web pages stored entirely in their URL. Written in `HTML`,
+  `CSS`, and `JavaScript`.
 
-- ### [Personal Site](/projects/personal-site)
+- ### [Personal Site](https://github.com/jstrieb/personal-site)
   Personal website designed by hand in `HTML`, `CSS`, and `Javascript`, and
   compiled from `markdown` using a custom `bash` script.
 
