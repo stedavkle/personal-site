@@ -50,8 +50,12 @@ for MD in $MD_FILES; do
 done
 
 
-# Copy miscellaneous non-markdown files that and don't need conversion
-MISC_RES=$(find $SRC_DIR -name "*" | grep -v '\.md$')
+# Copy miscellaneous non-markdown files that don't need conversion, skip
+# temporary vim swap files (*.swp and *.swo)
+MISC_RES=$(find $SRC_DIR -name "*" \
+            | grep -v '\.md$' \
+            | grep -v '\.swp$' \
+            | grep -v '\.swo$')
 for RES in $MISC_RES; do
   if [ -d $RES ]; then continue; fi
 
@@ -71,14 +75,3 @@ for RES in $MISC_RES; do
     cp $RES $DEST
   fi
 done
-
-
-# Delete garbage Vim swap files that may have been accidentally copied over
-if [ "$(find $SITE_DIR -name '.*.swp')" ]; then
-  echo "Deleting garbage *.swp files"
-  rm $(find $SITE_DIR -name '.*.swp')
-fi
-if [ "$(find $SITE_DIR -name '.*.swo')" ]; then
-  echo "Deleting garbage *.swo files"
-  rm $(find $SITE_DIR -name '.*.swo')
-fi
