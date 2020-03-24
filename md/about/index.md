@@ -16,7 +16,7 @@ My resume is available upon request.
 
 # Contact
 
-I can be reached at [jstrieb@andrew.cmu.edu](mailto:jstrieb@andrew.cmu.edu).
+I can be reached at [jstrieb@cmu.edu](mailto:jstrieb@cmu.edu).
 
 Alternatively, use the form below to directly send me a chat message. If you
 see a blank screen after clicking "Send," then the message was sent
