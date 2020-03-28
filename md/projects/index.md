@@ -23,6 +23,11 @@ description: List of publicly released projects created by Jacob Strieb
   images. Also works with text and `tikz` plots. Written in `Python3` and run
   using `cgi-bin`.
 
+- ### [Online Homework LaTeX Template](https://github.com/jstrieb/homework-template)
+  Homework template used for typesetting assignments and problem sets at
+  Carnegie Mellon University; optimized for online submission. Written in
+  `LaTeX`.
+
 - ### [GroupMe Archiver](https://github.com/jstrieb/groupme-archiver)
   GUI to download media and messages from GroupMe Chats. Written in `Java`
   using `JavaFX`.
