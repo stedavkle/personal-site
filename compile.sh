@@ -14,7 +14,7 @@ set -e
 
 
 # If pandoc isn't installed, abort
-if [ ! $(which pandoc) ]; then
+if [[ ! $(which pandoc) ]]; then
   echo \
 "Pandoc must be installed to use this script. To install it on a Debian-based
 Linux computer (e.g., Ubuntu), do:   sudo apt install pandoc"
@@ -42,6 +42,7 @@ for MD in $MD_FILES; do
     echo "Converting file $MD -> $HTML"
     pandoc --standalone \
       --css=/style.css \
+      --variable=lang:en \
       --include-before-body=$RES_DIR/navbar.html \
       --include-after-body=$RES_DIR/footer.html \
       --template=$RES_DIR/template.html \

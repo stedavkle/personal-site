@@ -10,9 +10,11 @@ description: Background on Jacob Strieb
 # About
 
 I am currently an undergraduate studying math, computer science, and public
-policy at Carnegie Mellon University in Pittsburgh.
+policy at Carnegie Mellon University in Pittsburgh. My resume is available upon
+request.
 
-My resume is available upon request.
+For more information about this website and how I created it, read my post
+[here](/projects/personal-site).
 
 # Contact
 
