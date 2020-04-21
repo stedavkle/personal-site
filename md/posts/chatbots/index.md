@@ -34,7 +34,7 @@ semester.
 "JSON" is an acronym used to describe JavaScript Object Notation. This is essentially a format for transmitting data in the form of "objects" (think object-oriented programming). The notation is very similar to Python's syntax for dictionaries. Generally, JSON objects can be thought of as a text form of dictionaries.
 
 Here is an example of a JSON object:
-```javascript
+``` { .javascript }
 {
   "firstName": "John",
   "lastName": "Smith",
@@ -68,7 +68,7 @@ Here is an example of a JSON object:
 Parsing text formatted as JSON objects is very easy in Python. Using the `json` library, and calling the `json.loads` method on a properly-formatted string will return a regular Python dictionary.
 
 Assuming that the above text is stored as `jsonString`, we can do the following to turn it into a dictionary in Python:
-```python
+``` { .python }
 import json
 
 jsonDict = json.loads(jsonString)
@@ -88,7 +88,7 @@ In order to create JSON text strings from Python dictionaries, we can use the `j
 Additionally, the `indent` optional parameter to the `json.dumps` method is very useful for printing and debugging JSON strings. This allows the output string to be formatted nicely. The `indent` parameter is an integer representing the number of spaces to indent each successive nested layer of the dictionary. Typical values are 2 or 4.
 
 Here is an example of modifying some values from the JSON string above and returning the modified JSON string:
-```python
+``` { .python }
 import json
 
 jsonDict = json.loads(jsonString)
@@ -112,7 +112,7 @@ print(newJsonString)
 ```
 
 Running this code prints the following:
-```javascript
+``` { .javascript }
 {
   "firstName": "John",
   "lastName": "Smith",
@@ -184,7 +184,7 @@ Now that we have our API key, we can make requests to the GIPHY API. The API Doc
 The Docs for the API also specify what the response will look like, but for now we will just make some requests and see what we can extract from the response. For this example, we will get a random cat GIF and print the link to the screen.
 
 In the following example, we import the `requests` library, assemble the data we want to send in a `data` dictionary, and make a `GET` request. Then we print the JSON output to the screen:
-```python
+``` { .python }
 import requests
 import random
 
@@ -207,7 +207,7 @@ http://api.giphy.com/v1/gifs/search?api_key=exiOXgECL7g582dV2Mt85vYZoSs1Kb0m&q=c
 ```
 
 By manually inspecting the output of the above code, we see that within the `data` attribute each element has a `bitly_gif_url` attribute that has a shortened link to the GIF. The following code extracts this URL and prints it to the screen:
-```python
+``` { .python }
 import requests
 import random
 
@@ -230,7 +230,7 @@ Note that the above code uses the JSON parser built natively into the `requests`
 Now that we know how to use APIs in general, we can begin to build a chatbot for the GroupMe messaging platform that will send messages in a group chat when we run the code. Doing this is largely the same as the procedure we went through in order to get GIFs from the GIPHY API.
 
 First, we must register a bot with a group. This can be done at [this page](https://dev.groupme.com/bots/new). Once the bot is registered, as with the GIPHY API, we will be given an access token that should be kept secret and safe. Then, sending a message is as easy as using the requests library as before:
-```python
+``` { .python }
 import requests
 
 data = {
@@ -254,7 +254,7 @@ The reason that doing this is more complex than having the bot simply send messa
 To poll the server for new messages, we will use the GroupMe push service. In order to use this service, our code must first get a clientId, and then must "subscribe" to a channel before being able to poll it for new messages. The following code does all of these steps before entering the main loop of the function where it polls for new messages. After seeing new messages, it makes sure it is responding to messages in the correct group, and makes sure that the bot isn't responding to itself (which could result in an infinite loop).
 
 This simple bot merely repeats whatever is sent in its group:
-```python
+``` { .python }
 import requests
 import time
 import json
@@ -419,7 +419,7 @@ Flask is a service (written in python) that runs an application (in this case, t
 - Get user information
 - Send message to user
 
-```python
+``` { .python }
 #Python libraries that we need to import for our bot
 import random
 from flask import Flask, request
@@ -506,7 +506,7 @@ Note: putting code on Heroku requires the use of `git` in addition to installing
 
 First, create a new folder and initialize a new `git` repository. Then create a new `heroku` app in the folder with the repository. To do this, run the following commands in `cmd`/Terminal/`bash` depeding on whether you are on Windows, Mac, or Linux (respectively):
 
-```bash
+``` { .bash }
 mkdir bot
 cd bot
 git init .
@@ -533,7 +533,7 @@ gunicorn==19.6.0
 ```
 
 Once the above files have been added to the repository, the last step is to add your code and tell Heroku to run it. In order to add your code, insert it into a file called `app.py` formatted as the code below is:
-```python
+``` { .python }
 import json
 import requests
 from flask import Flask, request
@@ -561,7 +561,7 @@ def process(msg):
 ```
 
 Once `app.py` has been created, it is time to send the code to Heroku to be run. To do this, run the following commands:
-```bash
+``` { .bash }
 git add .
 git commit -am 'updated code'
 git push heroku master

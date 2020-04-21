@@ -8,13 +8,16 @@ RES_DIR=resources
 SITE_DIR=../jstrieb.github.io
 SRC_DIR=md
 
+# Pandoc executable
+PANDOC=pandoc
+
 
 # Exit immediately if anything fails
 set -e
 
 
 # If pandoc isn't installed, abort
-if [[ ! $(which pandoc) ]]; then
+if [[ ! $(which $PANDOC) ]]; then
   echo \
 "Pandoc must be installed to use this script. To install it on a Debian-based
 Linux computer (e.g., Ubuntu), do:   sudo apt install pandoc"
@@ -40,8 +43,9 @@ for MD in $MD_FILES; do
   # Convert the file if the HTML doesn't exist or is older than the markdown
   if [ ! -f $HTML ] || [ $MD -nt $HTML ] || [ $RES_DIR -nt $HTML ]; then
     echo "Converting file $MD -> $HTML"
-    pandoc --standalone \
+    $PANDOC --standalone \
       --css=/style.css \
+      --highlight-style=$RES_DIR/code-highlight.theme \
       --variable=lang:en \
       --include-before-body=$RES_DIR/navbar.html \
       --include-after-body=$RES_DIR/footer.html \
