@@ -12,13 +12,13 @@ description: Index of posts by Jacob Strieb on jstrieb.github.io
 
     Using `SQL` to analyze Carnegie Mellon faculty and course evaluations and
     inform course selection.
+-->
 
 
 - ### [Computer Science Reduction Notation Mnemonic](/posts/reduction-notation/)
 
     My tactic to remember the meaning of theoretical computer science notation
     for describing reductions.
--->
 
 
 - ### [The Simplest Cookie Clicker Autoclicker](/posts/auto-cookie/)
