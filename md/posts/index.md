@@ -23,8 +23,8 @@ description: Index of posts by Jacob Strieb on jstrieb.github.io
 
 - ### [The Simplest Cookie Clicker Autoclicker](/posts/auto-cookie/)
 
-    Cheating at Cookie Clicker by building a simple autoclicker for that runs
-    as a bookmarklet.
+    Cheating at Cookie Clicker by building a simple autoclicker that runs as a
+    bookmarklet.
 
 
 - ### [My Favorite Programming Problem to Teach](/posts/digit-length/)
