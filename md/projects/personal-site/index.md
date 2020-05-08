@@ -102,7 +102,10 @@ it from `markdown`.
   of the others.
 
 [^2]: There are sometimes slight differences between versions compiled using
-  WSL due to it having a different version of `pandoc` installed
+  WSL due to it having a different version of `pandoc` installed. It is
+  possible to use the latest version of `pandoc` for Windows by installing it
+  normally and then running `pandoc.exe` from the WSL bash prompt (and
+  replacing `pandoc` with `pandoc.exe` in the script).
 
 [^3]: See the Pandoc docs section on
   [templates](https://pandoc.org/MANUAL.html#templates)
