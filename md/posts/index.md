@@ -15,6 +15,11 @@ description: Index of posts by Jacob Strieb on jstrieb.github.io
 -->
 
 
+- ### [A Student's Perspective on Hacker News](/posts/hn-thoughts/)
+
+    My favorite and least favorite parts of Hacker News.
+
+
 - ### [Computer Science Reduction Notation Mnemonic](/posts/reduction-notation/)
 
     My tactic to remember the meaning of theoretical computer science notation
