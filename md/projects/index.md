@@ -15,8 +15,12 @@ description: List of publicly released projects created by Jacob Strieb
   `CSS`, and `JavaScript`.
 
 - ### [Personal Site](https://github.com/jstrieb/personal-site)
-  Personal website designed by hand in `HTML`, `CSS`, and `Javascript`, and
+  Personal website designed by hand in `HTML`, `CSS`, and `JavaScript`, and
   compiled from `markdown` using a custom `bash` script.
+
+- ### [Link Lock](https://github.com/jstrieb/link-lock)
+  Distributed application to password-protect URLs using AES in the browser.
+  Written in `HTML`, `CSS`, and `JavaScript`.
 
 - ### [GroupMe LaTeX Bot](https://github.com/jstrieb/groupme-latex)
   Renders LaTeX equations and sends them to the group chat as
@@ -39,6 +43,6 @@ description: List of publicly released projects created by Jacob Strieb
 - ### [CMU QPA](/cmuqpa)
   Static web application to help Carnegie Mellon students calculate and predict
   their semester QPA. Created from scratch using `HTML`, `CSS`, and
-  `Javascript`.
+  `JavaScript`.
 
 </div>
