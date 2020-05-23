@@ -15,14 +15,15 @@ Published on [May 14, 2020](/posts/hn-thoughts/)
 ---
 
 
-Recently, I reached out to the moderators of Hacker News. After helping me,
-Daniel ([dang](https://news.ycombinator.com/user?id=dang)) -- the primary
-moderator -- noted that my profile lists me as a student and asked about my
-thoughts and impressions of the site.[^1] I am indeed a student -- currently
-finishing my junior year at Carnegie Mellon, though I started browsing Hacker
-News in the middle of high school. I visit frequently because it tends to have
-the best content related to my interests, so I have developed a lot of
-opinions. What follows is my attempt to distill these as much as possible.
+Recently, I reached out to the moderators of [Hacker
+News](https://news.ycombinator.com). After helping me, Daniel
+([dang](https://news.ycombinator.com/user?id=dang)) -- the primary moderator --
+noted that my profile lists me as a student and asked about my thoughts and
+impressions of the site.[^1] I am indeed a student -- currently finishing my
+junior year at Carnegie Mellon, though I started browsing Hacker News in the
+middle of high school. I visit frequently because it tends to have the best
+content related to my interests, so I have developed a lot of opinions. What
+follows is my attempt to distill these as much as possible.
 
 Put simply, I think Hacker News is pretty great. It has benefited me personally
 and professionally; however, I have mixed feelings about the comments.
