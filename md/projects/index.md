@@ -31,7 +31,7 @@ description: List of publicly released projects created by Jacob Strieb
   Browser extension to download recorded Zoom videos. Written in pure `HTML`,
   `CSS`, and `JavaScript`.
 
-- ### [Online Homework LaTeX Template](https://github.com/jstrieb/homework-template)
+- ### [Online Homework Template](https://github.com/jstrieb/homework-template)
   Homework template used for typesetting assignments and problem sets at
   Carnegie Mellon University; optimized for online submission. Written in
   `LaTeX`.

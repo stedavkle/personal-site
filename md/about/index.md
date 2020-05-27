@@ -14,10 +14,10 @@ policy at Carnegie Mellon University in Pittsburgh. My resume is available upon
 request.
 
 For more information about this website and how I created it, read my post
-[here](/projects/personal-site). The website does not use tracking or
-analytics, nor do any of the distributed web applications I have built. Thus,
-the only feedback I get is from people reaching out to me. If you like my work,
-please send me a message!
+[here](/projects/personal-site). The site does not use tracking or analytics,
+nor do any of the distributed web applications I have built. Thus, the only
+feedback I get is from people reaching out to me. If you like my work, please
+send me a message!
 
 
 # Contact
@@ -25,7 +25,8 @@ please send me a message!
 I can be reached at [jstrieb@cmu.edu](mailto:jstrieb@cmu.edu).
 
 Alternatively, use the form below to contact me directly. A chatbot delivers
-these messages directly to my cell phone.
+these messages directly to my cell phone. Don't forget to include contact
+information if you would like a response!
 
 <div class="contact-form">
 <iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
@@ -38,7 +39,7 @@ these messages directly to my cell phone.
 </div><br />
 
 <script type="text/javascript">
-	// Show that the message has been sent and clear the textarea
+// Show that the message has been sent and clear the textarea
 function showSent(form) {
 	const alert = document.querySelector(".contact-form .alert");
 	alert.innerText = "Sent!"

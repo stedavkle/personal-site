@@ -5,20 +5,21 @@ date: November 25, 2019
 description: Index of posts by Jacob Strieb on jstrieb.github.io
 ...
 
-# Posts
-
-<!--
-- ### [Choosing Courses by Querying Evaluations with SQL](/posts/cmu-fce-sql/)
-
-    Using `SQL` to analyze Carnegie Mellon faculty and course evaluations and
-    inform course selection.
--->
-
+# Writing
 
 - ### [A Student's Perspective on Hacker News](/posts/hn-thoughts/)
 
-    My favorite and least favorite parts of Hacker News.
+    My favorite and least favorite parts of Hacker News through high school and
+    college.
 
+
+- ### [My Favorite Programming Problem to Teach](/posts/digit-length/)
+
+    How finding digit length teaches a variety of introductory programming
+    concepts.
+
+
+# Miscellaneous
 
 - ### [Computer Science Reduction Notation Mnemonic](/posts/reduction-notation/)
 
@@ -32,13 +33,7 @@ description: Index of posts by Jacob Strieb on jstrieb.github.io
     bookmarklet.
 
 
-- ### [My Favorite Programming Problem to Teach](/posts/digit-length/)
-
-    How finding digit length teaches a variety of introductory programming
-    concepts.
-
-
-- ### [Static Site Generator from Scratch for My Personal Website](/projects/personal-site/)
+- ### [Static Site Generator for My Personal Website](/projects/personal-site/)
 
     The history behind my personal website and the static site generation
     script I wrote to compile it.
@@ -48,3 +43,12 @@ description: Index of posts by Jacob Strieb on jstrieb.github.io
 
     Supporting material for an optional lecture given leading up to term
     projects for 15-112 at Carnegie Mellon University.
+
+<!--
+- ### [Choosing Courses by Querying Evaluations with SQL](/posts/cmu-fce-sql/)
+
+    Using `SQL` to analyze Carnegie Mellon faculty and course evaluations and
+    inform course selection.
+-->
+
+

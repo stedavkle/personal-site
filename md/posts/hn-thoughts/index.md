@@ -2,7 +2,7 @@
 title: "A Student's Perspective on Hacker News - Jacob Strieb"
 author: Jacob Strieb
 date: May 14, 2020
-description: My favorite and least favorite parts of Hacker News.
+description: My favorite and least favorite parts of Hacker News through high school and college
 ...
 
 
@@ -55,14 +55,15 @@ experience of browsing the site.
 Beyond keeping me current on the latest and greatest in tech, Hacker News has
 been a boon for me professionally. Last summer, I had a productive, fun, and
 informative internship working at an early-stage Silicon Valley consumer
-robotics startup founded by Y Combinator alumni. We connected via Y Combinator's
-"Work at a Startup" program, which I learned about through Hacker News. This
-summer, I will be interning for a security company that I initially reached out
-to based on a Hacker News "Who is Hiring" thread. I am confident that without
-Hacker News as a means to find opportunities, I would not have access to these
-experiences. I use my university's on-campus career services, but Hacker News
-and more broadly, Y Combinator, are better equipped to help students find
-opportunities at startups.
+robotics startup founded by Y Combinator alumni. We connected via Y
+Combinator's [Work at a Startup](https://www.workatastartup.com/internships/)
+program, which I learned about through Hacker News. This summer, I will be
+interning for a security company that I initially reached out to based on a
+Hacker News "Who is Hiring" thread. I am confident that without Hacker News as
+a means to find opportunities, I would not have access to these experiences. I
+use my university's on-campus career services, but Hacker News and more
+broadly, Y Combinator, are better equipped to help students find opportunities
+at startups.
 
 On the other hand, I feel jaded about tech work before I have even begun. I am
 passionate about enriching society using software, so it feels inevitable that
