@@ -10,6 +10,10 @@ description: List of publicly released projects created by Jacob Strieb
 
 <div class="projects">
 
+- ### [Link Lock](https://github.com/jstrieb/link-lock)
+  Distributed application to password-protect URLs using AES in the browser.
+  Written in `HTML`, `CSS`, and `JavaScript`.
+
 - ### [URL Pages](https://github.com/jstrieb/urlpages)
   Create and view web pages stored entirely in their URL. Written in `HTML`,
   `CSS`, and `JavaScript`.
@@ -17,10 +21,6 @@ description: List of publicly released projects created by Jacob Strieb
 - ### [Personal Site](https://github.com/jstrieb/personal-site)
   Personal website designed by hand in `HTML`, `CSS`, and `JavaScript`, and
   compiled from `markdown` using a custom `bash` script.
-
-- ### [Link Lock](https://github.com/jstrieb/link-lock)
-  Distributed application to password-protect URLs using AES in the browser.
-  Written in `HTML`, `CSS`, and `JavaScript`.
 
 - ### [GroupMe LaTeX Bot](https://github.com/jstrieb/groupme-latex)
   Renders LaTeX equations and sends them to the group chat as

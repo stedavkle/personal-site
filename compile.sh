@@ -4,12 +4,12 @@
 
 # Global variables
 # TODO: Implement as arguments
-RES_DIR=resources
-SITE_DIR=../jstrieb.github.io
-SRC_DIR=md
+RES_DIR="resources"
+SITE_DIR="../jstrieb.github.io"
+SRC_DIR="md"
 
 # Pandoc executable
-PANDOC=pandoc
+PANDOC=pandoc.exe
 
 
 # Exit immediately if anything fails
@@ -17,16 +17,20 @@ set -e
 
 
 # If pandoc isn't installed, abort
-if [[ ! $(which $PANDOC) ]]; then
-  echo \
-"Pandoc must be installed to use this script. To install it on a Debian-based
-Linux computer (e.g., Ubuntu), do:   sudo apt install pandoc"
-  exit
+if ! which $PANDOC > /dev/null; then
+  PANDOC=pandoc
+  if ! which $PANDOC > /dev/null; then
+    echo \
+  "Pandoc must be installed to use this script. To install it on a Debian-based
+  Linux computer (e.g., Ubuntu), do:   sudo apt install pandoc"
+    exit
+  fi
 fi
 
 
 # Find all markdown (md) files to convert
 MD_FILES=$(find $SRC_DIR -name "*.md")
+
 
 # Loop over each md file, converting if necessary
 for MD in $MD_FILES; do
@@ -43,7 +47,8 @@ for MD in $MD_FILES; do
   # Convert the file if the HTML doesn't exist or is older than the markdown
   if [ ! -f $HTML ] || [ $MD -nt $HTML ] || [ $RES_DIR -nt $HTML ]; then
     echo "Converting file $MD -> $HTML"
-    $PANDOC --standalone \
+    $PANDOC \
+      --standalone \
       --css=/style.css \
       --highlight-style=$RES_DIR/code-highlight.theme \
       --variable=lang:en \
@@ -60,7 +65,8 @@ done
 MISC_RES=$(find $SRC_DIR -name "*" \
             | grep -v '\.md$' \
             | grep -v '\.swp$' \
-            | grep -v '\.swo$')
+            | grep -v '\.swo$' \
+            | grep -v '\.bak$')
 for RES in $MISC_RES; do
   if [ -d $RES ]; then continue; fi
 
@@ -69,6 +75,7 @@ for RES in $MISC_RES; do
   DIR=$(echo $DEST | sed "s:/[^/]*$:/:")
 
   # Make the directory if it doesn't already exist
+  # TODO: Fix error copying files with spaces
   if [ ! -d "$DIR" ]; then
     echo Creating directory "$DIR"
     mkdir -p $DIR
