@@ -32,28 +32,6 @@ achievement.
 Running the autoclicker is as simple as dragging the following link to the
 bookmarks bar, and clicking it while the game is running:
 
-<style>
-.button-container {
-  padding: 1em;
-  text-align: center;
-}
-
-a.button {
-  color: limegreen;
-  text-decoration: none;
-  border: 2px solid;
-  border-radius: 3px;
-  padding: 0.5em;
-}
-
-a.button:hover {
-  color: black;
-  background: limegreen;
-  text-decoration: none;
-  border: 2px solid limegreen;
-}
-</style>
-
 <div class="button-container"> <a class="button" href="javascript:var autoclicker = setInterval(function(){ try { document.getElementById('bigCookie').click(); } catch (err) { clearInterval(); } }, 10);">Cookie Autoclicker</a> </div>
 
 The code is very simple. It creates a timer that calls a function every 10
