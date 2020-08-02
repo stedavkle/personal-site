@@ -30,7 +30,9 @@ information if you would like a response!
 
 <div class="contact-form">
 <noscript>
+<p>
 The form below requires JavaScript to be enabled in order to submit. I wish I could use a regular form that does not require JavaScript, but unfortunately spammers took advantage. As a result, I have had to resort to this. If you have JavaScript disabled but still want to contact me, please use my email, which can be found above.
+</p>
 </noscript>
 <form onsubmit="submitForm(this); return false">
 <label for="email">Email (Optional):
