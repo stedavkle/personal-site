@@ -37,7 +37,6 @@ The form below requires JavaScript to be enabled in order to submit. I wish I co
 <input type="email" id="email" name="email" /></label>
 <label for="text">Message:
 <textarea minlength="1" maxlength="999" id="text" name="text"></textarea>
-</text>
 <button>Send</button>
 <p class="alert" id="alert"></p>
 </form>
