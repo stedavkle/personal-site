@@ -21,6 +21,12 @@ description: Index of posts by Jacob Strieb on jstrieb.github.io
 
 # Miscellaneous
 
+- ### [Everyone Should Use `<details>` on GitHub](/posts/github-details)
+
+    The `<details>` tag is a useful way to include information on a single page
+    that only some users may want to see; it should be used more frequently in
+    GitHub README files.
+
 - ### [Computer Science Reduction Notation Mnemonic](/posts/reduction-notation/)
 
     My tactic to remember the meaning of theoretical computer science notation
@@ -43,12 +49,4 @@ description: Index of posts by Jacob Strieb on jstrieb.github.io
 
     Supporting material for an optional lecture given leading up to term
     projects for 15-112 at Carnegie Mellon University.
-
-<!--
-- ### [Choosing Courses by Querying Evaluations with SQL](/posts/cmu-fce-sql/)
-
-    Using `SQL` to analyze Carnegie Mellon faculty and course evaluations and
-    inform course selection.
--->
-
 
