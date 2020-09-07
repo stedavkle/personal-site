@@ -18,6 +18,10 @@ description: List of publicly released projects created by Jacob Strieb
   Create and view web pages stored entirely in their URL. Written in `HTML`,
   `CSS`, and `JavaScript`.
 
+- ### [GitHub Statistics Images](https://github.com/jstrieb/github-stats)
+  Automatically generate summary GitHub statistics images for your profile
+  using GitHub Actions and `Python`.
+
 - ### [Personal Site](https://github.com/jstrieb/personal-site)
   Personal website designed by hand in `HTML`, `CSS`, and `JavaScript`, and
   compiled from `markdown` using a custom `bash` script.
