@@ -2,3 +2,6 @@
 
 # Ignore Python files in the language detection
 *.py linguist-detectable=false
+
+# Reclassify Markdown files as HTML since they typically include inlined HTML
+*.md linguist-language=HTML
