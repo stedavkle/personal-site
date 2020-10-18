@@ -13,11 +13,9 @@ I am currently an undergraduate studying math, computer science, and public
 policy at Carnegie Mellon University in Pittsburgh. My resume is available upon
 request.
 
-For more information about this website and how I created it, read my post
-[here](/projects/personal-site). The site does not use tracking or analytics,
-nor do any of the distributed web applications I have built. Thus, the only
-feedback I get is from people reaching out to me. If you like my work, please
-send me a message!
+The site does not use tracking or analytics, nor do any of the distributed web
+applications I have built. Thus, the only feedback I get is from people
+reaching out to me. If you like my work, please send me a message!
 
 
 # Contact
