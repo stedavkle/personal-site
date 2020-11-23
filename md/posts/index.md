@@ -21,6 +21,11 @@ description: Index of posts by Jacob Strieb on jstrieb.github.io
 
 # Miscellaneous
 
+- ### [Abusing the GitHub Link Shortener](/posts/git-io)
+
+    GitHub has a link shortener that only works for GitHub domains, but this
+    can be circumvented by using URL Pages and JavaScript redirects.
+
 - ### [Everyone Should Use `<details>` on GitHub](/posts/github-details)
 
     The `<details>` tag is a useful way to include information on a single page
