@@ -23,7 +23,7 @@ existence of a GitHub-exclusive link
 shortener.^[<https://github.com/jstrieb/link-lock/issues/2>]
 Released in
 2011,^[<https://github.blog/2011-11-10-git-io-github-url-shortener/>] the
-service lives at (git.io)[https://git.io]. Excitingly, some testing revealed
+service lives at [git.io](https://git.io). Excitingly, some testing revealed
 that it does not seem to have a length limit on submitted URLs!
 
 Despite being very useful for reducing the size of long URL Pages links, git.io
