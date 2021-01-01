@@ -22,6 +22,10 @@ description: List of publicly released projects created by Jacob Strieb
   Automatically generate summary GitHub statistics images for your profile
   using GitHub Actions and `Python`.
 
+- ### [Collaborative CTF Environment](https://github.com/jstrieb/ctf-collab)
+  Create a collaborative programming environment inside GitHub Actions – like
+  Google Docs for hacking competitions.
+
 - ### [Personal Site](https://github.com/jstrieb/personal-site)
   Personal website designed by hand in `HTML`, `CSS`, and `JavaScript`, and
   compiled from `markdown` using a custom `bash` script.
