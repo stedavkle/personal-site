@@ -18,6 +18,11 @@ description: List of publicly released projects created by Jacob Strieb
   Create and view web pages stored entirely in their URL. Written in `HTML`,
   `CSS`, and `JavaScript`.
 
+- ### [Hacker News Discussion Button](https://github.com/jstrieb/hackernews-button)
+  Firefox extension that links to the Hacker News discussion for the current
+  page and preserves privacy with Bloom filters. Written in `C` with
+  `WebAssembly`, and `JavaScript`.
+
 - ### [GitHub Statistics Images](https://github.com/jstrieb/github-stats)
   Automatically generate summary GitHub statistics images for your profile
   using GitHub Actions and `Python`.
