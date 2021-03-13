@@ -21,6 +21,11 @@ description: Index of posts by Jacob Strieb on jstrieb.github.io
 
 # Miscellaneous
 
+- ### [Bookmark Knocking: Hidden Bookmarks Without A Browser Extension](/projects/hidden-bookmarks)
+
+    A novel technique to create secure, hidden bookmarks without a browser
+    extension.
+
 - ### [Abusing the GitHub Link Shortener](/posts/git-io)
 
     GitHub has a link shortener that only works for GitHub domains, but this

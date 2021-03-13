@@ -14,6 +14,10 @@ description: List of publicly released projects created by Jacob Strieb
   Distributed application to password-protect URLs using AES in the browser.
   Written in `HTML`, `CSS`, and `JavaScript`.
 
+- ### [Bookmark Knocking](/projects/hidden-bookmarks)
+  A novel technique to create secure, hidden bookmarks without a browser
+  extension.
+
 - ### [URL Pages](https://github.com/jstrieb/urlpages)
   Create and view web pages stored entirely in their URL. Written in `HTML`,
   `CSS`, and `JavaScript`.
