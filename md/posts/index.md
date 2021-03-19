@@ -19,17 +19,27 @@ description: Index of posts by Jacob Strieb on jstrieb.github.io
     concepts.
 
 
-# Miscellaneous
+# Demos
 
 - ### [Bookmark Knocking: Hidden Bookmarks Without A Browser Extension](/projects/hidden-bookmarks)
 
     A novel technique to create secure, hidden bookmarks without a browser
     extension.
 
+
 - ### [Abusing the GitHub Link Shortener](/posts/git-io)
 
     GitHub has a link shortener that only works for GitHub domains, but this
     can be circumvented by using URL Pages and JavaScript redirects.
+
+
+- ### [The Simplest Cookie Clicker Autoclicker](/posts/auto-cookie/)
+
+    Cheating at Cookie Clicker by building a simple autoclicker that runs as a
+    bookmarklet.
+
+
+# Miscellaneous
 
 - ### [Everyone Should Use `<details>` on GitHub](/posts/github-details)
 
@@ -37,16 +47,11 @@ description: Index of posts by Jacob Strieb on jstrieb.github.io
     that only some users may want to see; it should be used more frequently in
     GitHub README files.
 
+
 - ### [Computer Science Reduction Notation Mnemonic](/posts/reduction-notation/)
 
     My tactic to remember the meaning of theoretical computer science notation
     for describing reductions.
-
-
-- ### [The Simplest Cookie Clicker Autoclicker](/posts/auto-cookie/)
-
-    Cheating at Cookie Clicker by building a simple autoclicker that runs as a
-    bookmarklet.
 
 
 - ### [Static Site Generator for My Personal Website](/projects/personal-site/)
