@@ -1,12 +1,12 @@
 ---
-title: "Bookmark Knocking: Hidden Bookmarks Without A Browser Extension"
+title: "Bookmark Knocking: A Novel Technique to Hide Bookmarks"
 author: Jacob Strieb
 date: March 12, 2021
 description: A novel technique to securely hide bookmarks without a browser extension.
 ...
 
 
-# Bookmark Knocking: Hidden Bookmarks Without a Browser Extension
+# Bookmark Knocking: A Novel Technique to Hide Bookmarks
 
 By [Jacob Strieb](https://jstrieb.github.io)
 

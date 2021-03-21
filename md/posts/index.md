@@ -21,7 +21,7 @@ description: Index of posts by Jacob Strieb on jstrieb.github.io
 
 # Demos
 
-- ### [Bookmark Knocking: Hidden Bookmarks Without A Browser Extension](/projects/hidden-bookmarks)
+- ### [Bookmark Knocking: A Novel Technique to Hide Bookmarks](/projects/hidden-bookmarks)
 
     A novel technique to create secure, hidden bookmarks without a browser
     extension.
