@@ -13,18 +13,16 @@ I am currently an undergraduate studying math, computer science, and public
 policy at Carnegie Mellon University in Pittsburgh. My resume is available upon
 request.
 
-The site does not use tracking or analytics, nor do any of the distributed web
-applications I have built. Thus, the only feedback I get is from people
-reaching out to me. If you like my work, please send me a message!
+The site does not use tracking or analytics. The only way I know people visit
+is when they contact me directly.
 
 
 # Contact
 
 I can be reached at [jstrieb@cmu.edu](mailto:jstrieb@cmu.edu).
 
-Alternatively, use the form below to contact me directly. A chatbot delivers
-these messages directly to my cell phone. Don't forget to include contact
-information if you would like a response!
+Alternatively, use the form below. A chatbot delivers the messages directly to
+my cell phone. Include an email if you would like a response!
 
 <div class="contact-form">
 <noscript>
