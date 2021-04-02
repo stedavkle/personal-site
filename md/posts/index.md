@@ -41,6 +41,11 @@ description: Index of posts by Jacob Strieb on jstrieb.github.io
 
 # Miscellaneous
 
+- ### [Kaalaman Alternate Reality Game & Project Anukala](/posts/kaalaman/)
+
+    Guidance for people who have found my website from the Kaalaman ARG.
+
+
 - ### [Everyone Should Use `<details>` on GitHub](/posts/github-details)
 
     The `<details>` tag is a useful way to include information on a single page
