@@ -16,6 +16,14 @@ request.
 The site does not use tracking or analytics. The only way I know people visit
 is when they contact me directly.
 
+<div class="noscript">
+
+If you are looking for the Kaalaman ARG, use [this link](/posts/kaalaman).
+
+Kung naghahanap ka para sa Kaalaman ARG, gamitin ang [link na
+ito](/posts/kaalaman#filipino).
+
+</div>
 
 # Contact
 

@@ -119,3 +119,5 @@ Itinuturo nito ang link na ito na protektado ng isang password:
 <https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiM1Q3VTB0dDF4eUhBOUNCU00yeXc5UDI0aURRWHZoQUp1K25BblFGT3VrWFlDUDlVeXcwR1RWdlQwYTJ5bFE9PSIsImgiOiIwMy8wNC8yMSAtIEZhY2Vib29rIEBLYWFsYW1hbiIsImkiOiJRQlFBRHZuMDZKdW9hQmdUIn0=>
 
 > Hint: 03/04/21 - Facebook @Kaalaman
+
+Suwerte ang paglutas ng hamon!
