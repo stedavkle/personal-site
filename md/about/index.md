@@ -10,8 +10,8 @@ description: Background on Jacob Strieb
 # About
 
 I am currently an undergraduate studying math, computer science, and public
-policy at Carnegie Mellon University in Pittsburgh. My resume is available upon
-request.
+policy at Carnegie Mellon University in Pittsburgh. [View my resume
+here](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiaUx4aGdVSmFRWGNHcmI2eVc1RDVuT1VsODV3SFo4anhsbGd3U0ZyUHNTcXhPS3NNVjRzOTE0TktkR29QQUhkU1lHaDhBWldXbGxKQ3c2OVZCT3hFZUtDQmlIYXBSdXlGU1E9PSIsImgiOiJFbWFpbCBtZSBvciB1c2UgbXkgY29udGFjdCBmb3JtIHRvIHJlcXVlc3QgYWNjZXNzIiwicyI6ImRHb1JFNU5FK1VRejNuNlZOV3BQZUE9PSIsImkiOiJBUmVzTVJRUlFSZUJwd1BVIn0=).
 
 The site does not use tracking or analytics. The only way I know people visit
 is when they contact me directly.
