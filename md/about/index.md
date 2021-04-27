@@ -5,7 +5,7 @@ date: July 13, 2019
 description: Background on Jacob Strieb
 ...
 
-![](headshot.png){ .avatar }
+<img src="headshot.png" width="300" height="300" alt="Dithered headshot of Jacob Strieb" class="avatar">
 
 # About
 
