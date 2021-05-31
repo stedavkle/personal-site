@@ -9,8 +9,8 @@ description: Background on Jacob Strieb
 
 # About
 
-I am currently an undergraduate studying math, computer science, and public
-policy at Carnegie Mellon University in Pittsburgh. [View my resume
+I am a recent graduate of Carnegie Mellon University (class of 2021), where I
+studied math, computer science, and public policy. [View my resume
 here](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiaUx4aGdVSmFRWGNHcmI2eVc1RDVuT1VsODV3SFo4anhsbGd3U0ZyUHNTcXhPS3NNVjRzOTE0TktkR29QQUhkU1lHaDhBWldXbGxKQ3c2OVZCT3hFZUtDQmlIYXBSdXlGU1E9PSIsImgiOiJFbWFpbCBtZSBvciB1c2UgbXkgY29udGFjdCBmb3JtIHRvIHJlcXVlc3QgYWNjZXNzIiwicyI6ImRHb1JFNU5FK1VRejNuNlZOV3BQZUE9PSIsImkiOiJBUmVzTVJRUlFSZUJwd1BVIn0=).
 
 The site does not use tracking or analytics. The only way I know people visit
@@ -52,7 +52,7 @@ The form below requires JavaScript to be enabled in order to submit. I wish I co
 // Show that the message has been sent and clear the textarea
 async function submitForm(form) {
   const message = (( form.email.value ? `From: ${form.email.value}\n` : "")
-                  + `${form.text.value}`);
+                   + `${form.text.value}`);
 
   const BOT_ID = "706deaf523f339bcee544e833b";
   fetch(`https://api.groupme.com/v3/bots/post?bot_id=${BOT_ID}`, {

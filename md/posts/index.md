@@ -7,6 +7,12 @@ description: Index of posts by Jacob Strieb on jstrieb.github.io
 
 # Writing
 
+- ### [A Reflection on Programming in Virtual Reality](/posts/vr-programming/)
+
+    Setting up a distraction-free, virtual reality programming environment
+    using a borrowed Oculus Go.
+
+
 - ### [A Student's Perspective on Hacker News](/posts/hn-thoughts/)
 
     My favorite and least favorite parts of Hacker News through high school and

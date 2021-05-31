@@ -34,13 +34,26 @@ pre {
   page-break-inside: avoid;
 }
 
+pre code {
+  white-space: nowrap;
+}
+
 p {
   text-align: justify;
   font-family: serif;
 }
 
 img, video {
+  /*
+<<<<<<< HEAD
+  max-width: 100%;
+  width: 100%;
+=======
   max-width: min(70ch, 100%);
+>>>>>>> master
+  */
+  max-width: min(70ch, 100%);
+  width: 100%;
   display: inline-block;
 }
 
@@ -57,6 +70,10 @@ blockquote {
 
 blockquote p {
   text-align: left;
+}
+
+figcaption {
+  text-align: center;
 }
 
 code {
@@ -81,6 +98,10 @@ h2 {
 
 details summary {
   cursor: pointer;
+}
+
+summary h1, summary h2, summary h3, summary h4, summary h5, summary h6 {
+  display: inline;
 }
 
 
@@ -235,6 +256,7 @@ footer hr {
 /* Make the avatar on the about page have a rounded border */
 
 .avatar {
+  width: auto;
   display: block;
   margin: auto;
   border: 5px solid;
