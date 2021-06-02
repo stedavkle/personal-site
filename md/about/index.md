@@ -27,7 +27,7 @@ ito](/posts/kaalaman#filipino).
 
 # Contact
 
-I can be reached at [jstrieb@cmu.edu](mailto:jstrieb@cmu.edu).
+I can be reached at [jstrieb@alumni.cmu.edu](mailto:jstrieb@alumni.cmu.edu).
 
 Alternatively, use the form below. A chatbot delivers the messages directly to
 my cell phone. Include an email if you would like a response!
