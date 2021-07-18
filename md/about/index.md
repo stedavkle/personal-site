@@ -2,7 +2,7 @@
 title: About - Jacob Strieb
 author: Jacob Strieb
 date: July 13, 2019
-description: Background on Jacob Strieb
+description: "Background on Jacob Strieb: programmer, hacker, and public interest technologist."
 ...
 
 <img src="headshot.png" width="300" height="300" alt="Dithered headshot of Jacob Strieb" class="avatar">
