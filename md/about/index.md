@@ -18,10 +18,13 @@ is when they contact me directly.
 
 <div class="noscript">
 
-If you are looking for the Kaalaman ARG, use [this link](/posts/kaalaman).
+Scammers have been using my name to try and steal Bitcoin. 
 
-Kung naghahanap ka para sa Kaalaman ARG, gamitin ang [link na
-ito](/posts/kaalaman#filipino).
+<span class="underline">I will never send emails asking for cryptocurrency or
+offering to hack people.</span>
+
+If you receive emails from people claiming to be me, please forward them to the
+address listed below.
 
 </div>
 
