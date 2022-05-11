@@ -34,6 +34,13 @@ bookmarks bar, and clicking it while the game is running:
 
 <div class="button-container"> <a class="button" href="javascript:var autoclicker = setInterval(function(){ try { document.getElementById('bigCookie').click(); } catch (err) { clearInterval(); } }, 10);">Cookie Autoclicker</a> </div>
 
+If you do not have a visible bookmarks bar, you can press <kbd>Ctrl</kbd> +
+<kbd>Shift</kbd> + <kbd>B</kbd> (<kbd>Command</kbd> + <kbd>Shift</kbd> +
+<kbd>B</kbd> on macOS) to bring it up. Then drag the bookmark and drop it
+there. If that doesn't work for your browser, try using the instructions
+[here](https://www.computerhope.com/issues/ch001917.htm) or
+[here](https://it.nmu.edu/docs/display-bookmarks-and-favorites-your-internet-browser).
+
 The code is very simple. It creates a timer that calls a function every 10
 milliseconds. That function finds the cookie element in the document and clicks
 it. If such an element does not exist, the timer terminates.[^2] A more
