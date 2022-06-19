@@ -29,10 +29,10 @@ way to reduce the need for manual clicking without compromising the spirit of
 the game. Autoclicking also avoids the "Cheated Cookies Taste Awful" shadow
 achievement.
 
-Running the autoclicker is as simple as dragging the following link to the
-bookmarks bar, and clicking it while the game is running:
+Drag the following link to the bookmarks bar, and click it while the game is
+running:
 
-<div class="button-container"> <a class="button" href="javascript:var autoclicker = setInterval(function(){ try { document.getElementById('bigCookie').click(); } catch (err) { clearInterval(); } }, 10);">Cookie Autoclicker</a> </div>
+<div class="button-container"> <a class="button" href="javascript:var autoclicker = setInterval(function(){ try { Game.lastClick -= 1000; document.getElementById('bigCookie').click(); } catch (err) { console.error('Stopping auto clicker'); clearInterval(autoclicker); } }, 1);">Cookie Autoclicker</a> </div>
 
 If you do not have a visible bookmarks bar, you can press <kbd>Ctrl</kbd> +
 <kbd>Shift</kbd> + <kbd>B</kbd> (<kbd>Command</kbd> + <kbd>Shift</kbd> +
@@ -41,20 +41,24 @@ there. If that doesn't work for your browser, try using the instructions
 [here](https://www.computerhope.com/issues/ch001917.htm) or
 [here](https://it.nmu.edu/docs/display-bookmarks-and-favorites-your-internet-browser).
 
-The code is very simple. It creates a timer that calls a function every 10
-milliseconds. That function finds the cookie element in the document and clicks
-it. If such an element does not exist, the timer terminates.[^2] A more
-readable version of the code is included below, without the `javascript:`
+The code is very simple. It creates a timer that calls a function every 1
+millisecond. That function finds the cookie element in the document and clicks
+it. If such an element does not exist, the timer terminates.[^2] The code also
+changes the time of the last click to beat the auto clicker detection. 
+
+A readable version of the code is included below, without the `javascript:`
 prefix required for the bookmarklet to work.
 
 ``` { .javascript }
 var autoclicker = setInterval(function(){
   try {
+    Game.lastClick -= 1000;
     document.getElementById('bigCookie').click();
   } catch (err) {
-    clearInterval();
+    console.error('Stopping auto clicker');
+    clearInterval(autoclicker);
   }
-}, 10);
+}, 1);
 ```
 
 There are several ways to stop the autoclicker from running. The easiest is
@@ -65,7 +69,7 @@ in the browser console:
 clearInterval(autoclicker);
 ```
 
-This code is included as a second bookmarklet below, for convenience.
+This code is included as a second bookmarklet below, for convenience:
 
 <div class="button-container"> <a class="button" href="javascript:clearInterval(autoclicker);">Stop Cookie Autoclicker</a> </div>
 
