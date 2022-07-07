@@ -1,7 +1,7 @@
 # Personal Website
 
-- Home page: [jstrieb.github.io](https://jstrieb.github.io)
-- Code:
+- Home page: [kleindiek.dev](https://kleindiek.dev)
+- Forked from:
   [github.com/jstrieb/personal-site](http://github.com/jstrieb/personal-site)
 - About:
   [jstrieb.github.io/projects/personal-site](http://jstrieb.github.io/projects/personal-site/)
