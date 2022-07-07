@@ -5,7 +5,7 @@
 # Global variables
 # TODO: Implement as arguments
 RES_DIR="resources"
-SITE_DIR="../jstrieb.github.io"
+SITE_DIR="../kleindiek.dev"
 SRC_DIR="md"
 
 # Pandoc executable

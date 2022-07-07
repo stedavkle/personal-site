@@ -1,21 +1,19 @@
 ---
-title: About - Jacob Strieb
-author: Jacob Strieb
-date: July 13, 2019
-description: "Background on Jacob Strieb: programmer, hacker, and public interest technologist."
+title: About - David Kleindiek
+author: David Kleindiek
+date: July 7, 2022
+description: "Background on David Kleindiek."
 ...
 
 <img src="headshot.png" width="300" height="300" alt="Dithered headshot of Jacob Strieb" class="avatar">
 
 # About
-
-I am a recent graduate of Carnegie Mellon University (class of 2021), where I
-studied math, computer science, and public policy. [View my resume
-here](https://jstrieb.github.io/link-lock/#eyJ2IjoiMC4wLjEiLCJlIjoiaUx4aGdVSmFRWGNHcmI2eVc1RDVuT1VsODV3SFo4anhsbGd3U0ZyUHNTcXhPS3NNVjRzOTE0TktkR29QQUhkU1lHaDhBWldXbGxKQ3c2OVZCT3hFZUtDQmlIYXBSdXlGU1E9PSIsImgiOiJFbWFpbCBtZSBvciB1c2UgbXkgY29udGFjdCBmb3JtIHRvIHJlcXVlc3QgYWNjZXNzIiwicyI6ImRHb1JFNU5FK1VRejNuNlZOV3BQZUE9PSIsImkiOiJBUmVzTVJRUlFSZUJwd1BVIn0=).
-
+I am an undergraduate of Eberhard-Karl-Universät in Tübingen where I am studying computer science.
+ 
 The site does not use tracking or analytics. The only way I know people visit
 is when they contact me directly.
 
+<!--
 <div class="noscript">
 
 Scammers have been using my name to try and steal Bitcoin. 
@@ -25,12 +23,12 @@ offering to hack people.</span>
 
 If you receive emails from people claiming to be me, please forward them to the
 address listed below.
-
 </div>
+-->
 
 # Contact
 
-I can be reached at [jstrieb@alumni.cmu.edu](mailto:jstrieb@alumni.cmu.edu).
+I can be reached at [david.kleindiek@gmail.com](mailto:david.kleindiek@gmail.com).
 
 Alternatively, use the form below. A chatbot delivers the messages directly to
 my cell phone. Include an email if you would like a response!
